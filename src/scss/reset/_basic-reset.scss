@@ -5,3 +5,26 @@
 button, .no-radius {
 	border-radius: 0;
 }
+
+.btn-primary {
+	background-color: $primary;
+	border-radius: 0;
+	border-color: $primary;
+
+	&:hover {
+    background-color: #3caac1;
+    border-color: #3caac1;
+	}
+}
+
+.text-primary {
+	color: $primary !important;
+}
+
+.border-primary {
+	border-color: $primary !important;;
+}
+
+.bg-primary {
+	background-color: $primary !important;
+}
