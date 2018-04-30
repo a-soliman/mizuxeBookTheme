@@ -12,6 +12,18 @@
 	}
 }
 
+.text-primary {
+	color: $primary !important;
+}
+
+.border-primary {
+	border-color: $primary !important;;
+}
+
+.bg-primary {
+	background-color: $primary !important;
+}
+
 body {
 	margin-top: 105px;
 
