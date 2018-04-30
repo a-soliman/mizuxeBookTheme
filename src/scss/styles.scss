@@ -37,3 +37,24 @@ body {
 	margin: auto;
 	border-bottom: 1px solid #ddd;
 }
+
+#authors {
+	img {
+		margin-top: -50px;
+	}
+
+	.fa {
+		font-size: 25px;
+		color: $primary;
+	}
+
+	.card:hover {
+		background: $primary;
+		color: $white;
+
+		.fa {
+			color: $white;
+		}
+
+	}
+}
